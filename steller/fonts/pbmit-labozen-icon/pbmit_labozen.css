@@ -1,0 +1,168 @@
+@font-face {
+	font-family: "pbmit_labozen";
+	src: url("pbmit_labozen66c9.woff2?aac3b12e0db90c1b63f341395e35c086") format("woff2"),
+url("pbmit_labozen66c9.woff?aac3b12e0db90c1b63f341395e35c086") format("woff"),
+url("pbmit_labozen66c9.eot?aac3b12e0db90c1b63f341395e35c086#iefix") format("embedded-opentype"),
+url("pbmit_labozen66c9.ttf?aac3b12e0db90c1b63f341395e35c086") format("truetype"),
+url("pbmit_labozen66c9.svg?aac3b12e0db90c1b63f341395e35c086#pbmit_labozen") format("svg")
+}
+i[class^="pbmit_labozen-"]:before, i[class*=" pbmit-labozen-icon-"]:before {
+	font-family: pbmit_labozen !important;
+	font-style: normal;
+	font-weight: normal !important;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.pbmit-labozen-icon-scientist:before {
+	content: "\f101";
+}
+.pbmit-labozen-icon-microscope:before {
+	content: "\f102";
+}
+.pbmit-labozen-icon-graduation-cap:before {
+	content: "\f103";
+}
+.pbmit-labozen-icon-loupe:before {
+	content: "\f104";
+}
+.pbmit-labozen-icon-dna:before {
+	content: "\f105";
+}
+.pbmit-labozen-icon-microscope-slides:before {
+	content: "\f106";
+}
+.pbmit-labozen-icon-petri-dish:before {
+	content: "\f107";
+}
+.pbmit-labozen-icon-bacteria:before {
+	content: "\f108";
+}
+.pbmit-labozen-icon-danger:before {
+	content: "\f109";
+}
+.pbmit-labozen-icon-thermometer:before {
+	content: "\f10a";
+}
+.pbmit-labozen-icon-speedometer:before {
+	content: "\f10b";
+}
+.pbmit-labozen-icon-magnet:before {
+	content: "\f10c";
+}
+.pbmit-labozen-icon-flask:before {
+	content: "\f10d";
+}
+.pbmit-labozen-icon-syringe:before {
+	content: "\f10e";
+}
+.pbmit-labozen-icon-safety-glasses:before {
+	content: "\f10f";
+}
+.pbmit-labozen-icon-scale:before {
+	content: "\f110";
+}
+.pbmit-labozen-icon-filter:before {
+	content: "\f111";
+}
+.pbmit-labozen-icon-drug:before {
+	content: "\f112";
+}
+.pbmit-labozen-icon-book:before {
+	content: "\f113";
+}
+.pbmit-labozen-icon-medical-mask:before {
+	content: "\f114";
+}
+.pbmit-labozen-icon-atom:before {
+	content: "\f115";
+}
+.pbmit-labozen-icon-id-card:before {
+	content: "\f116";
+}
+.pbmit-labozen-icon-clipboard:before {
+	content: "\f117";
+}
+.pbmit-labozen-icon-pendulum:before {
+	content: "\f118";
+}
+.pbmit-labozen-icon-nuclear:before {
+	content: "\f119";
+}
+.pbmit-labozen-icon-mortar:before {
+	content: "\f11a";
+}
+.pbmit-labozen-icon-laptop:before {
+	content: "\f11b";
+}
+.pbmit-labozen-icon-pipette:before {
+	content: "\f11c";
+}
+.pbmit-labozen-icon-scalpel:before {
+	content: "\f11d";
+}
+.pbmit-labozen-icon-test-tube:before {
+	content: "\f11e";
+}
+.pbmit-labozen-icon-folder:before {
+	content: "\f11f";
+}
+.pbmit-labozen-icon-star-of-life:before {
+	content: "\f120";
+}
+.pbmit-labozen-icon-play-button:before {
+	content: "\f121";
+}
+.pbmit-labozen-icon-left:before {
+	content: "\f122";
+}
+.pbmit-labozen-icon-plus:before {
+	content: "\f123";
+}
+.pbmit-labozen-icon-location:before {
+	content: "\f124";
+}
+.pbmit-labozen-icon-mail:before {
+	content: "\f125";
+}
+.pbmit-labozen-icon-call:before {
+	content: "\f126";
+}
+.pbmit-labozen-icon-telephone:before {
+	content: "\f127";
+}
+.pbmit-labozen-icon-safety-goggles:before {
+	content: "\f128";
+}
+.pbmit-labozen-icon-flask-beaker:before {
+	content: "\f129";
+}
+.pbmit-labozen-icon-chemical:before {
+	content: "\f12a";
+}
+.pbmit-labozen-icon-lab:before {
+	content: "\f12b";
+}
+.pbmit-labozen-icon-lab-1:before {
+	content: "\f12c";
+}
+.pbmit-labozen-icon-lab-2:before {
+	content: "\f12d";
+}
+.pbmit-labozen-icon-atom-1:before {
+	content: "\f12e";
+}
+.pbmit-labozen-icon-respirator:before {
+	content: "\f12f";
+}
+.pbmit-labozen-icon-nuclear-1:before {
+	content: "\f130";
+}
+.pbmit-labozen-icon-dna-strand:before {
+	content: "\f131";
+}
+.pbmit-labozen-icon-badge:before {
+	content: "\f132";
+}
