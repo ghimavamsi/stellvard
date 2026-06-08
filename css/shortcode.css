@@ -6271,6 +6271,17 @@
 	transform: translateY(100%)
 }
 
+.pbmit-client-style-1 .pbmit-client-wrapper img {
+	height: 48px;
+	width: auto;
+	max-width: 140px;
+	object-fit: contain;
+}
+
+.pbmit-client-section {
+	padding-top: 80px;
+}
+
 /* --------------------------------------
 * 14 - Sortable
 * ---------------------------------------*/
