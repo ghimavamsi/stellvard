@@ -2028,6 +2028,7 @@ body.single .pbmit-ihbox-style-2 .pbmit-element-title{
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     text-transform: none;
     font-size: 18px;
@@ -2314,6 +2315,7 @@ aside.widget.widget-tag-cloud a:hover,
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     word-break: break-word;
 }
@@ -2426,7 +2428,6 @@ aside.widget.widget-tag-cloud a:hover,
 	font-family: 'pbminfotech-base-icons';
     content: "\e810";
     font-style: normal;
-    speak: none;
     display: inline-block;
     text-decoration: inherit;
     text-align: center;
