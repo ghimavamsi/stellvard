@@ -654,4 +654,40 @@
       });
     });
   }
+
+  /*-------------------------------------
+    Brochure Menu Click Toggle
+    -------------------------------------*/
+  $('.pbmit-brochure-download').on('mouseenter', function() {
+    if (!$(this).hasClass('menu-clicked')) {
+      $(this).addClass('show-menu');
+    }
+  });
+
+  $('.pbmit-brochure-download').on('mouseleave', function() {
+    if (!$(this).hasClass('menu-clicked')) {
+      $(this).removeClass('show-menu');
+    }
+  });
+
+  $('.pbmit-download-icon').on('click', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    let parent = $(this).closest('.pbmit-brochure-download');
+    
+    if (parent.hasClass('menu-clicked')) {
+      parent.removeClass('menu-clicked show-menu');
+    } else {
+      parent.addClass('menu-clicked show-menu');
+    }
+  });
+
+  $(document).on('click', function() {
+    $('.pbmit-brochure-download').removeClass('menu-clicked show-menu');
+  });
+  
+  $('.pbmit-download-menu').on('click', function(e) {
+    e.stopPropagation();
+  });
+
 })($);
