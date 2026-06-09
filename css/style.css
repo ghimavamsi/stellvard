@@ -281,8 +281,9 @@ body{
 }
 .fid-area-one .fid-style-1-wrap{
 	border-radius: 7px;
-	padding: 60px;
+	padding: 30px;
 	background-color: var(--pbmit-white-color);
+	text-align: center;
 }
 .pricing-section-one{
 	background-image: url(../images/demo-1/bg/pricing-bg-pattern.png);
