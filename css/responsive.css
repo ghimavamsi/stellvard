@@ -380,21 +380,21 @@ body {
 
 	/*=== Section Padding ===*/
 	.section-xl {
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 70px;
+		padding-bottom: 70px;
 	}
 
 	.section-lgb {
-		padding-bottom: 100px;
+		padding-bottom: 70px;
 	}
 
 	.section-lg {
-		padding-top: 100px;
-		padding-bottom: 80px;
+		padding-top: 70px;
+		padding-bottom: 60px;
 	}
 
 	.section-lgt {
-		padding-top: 100px;
+		padding-top: 70px;
 	}
 
 	.container {
@@ -1457,21 +1457,21 @@ body {
 	/*=== Section-Padding ===*/
 	.section-xl,
 	.section-md2 {
-		padding-top: 80px;
-		padding-bottom: 80px;
+		padding-top: 60px;
+		padding-bottom: 60px;
 	}
 
 	.section-lgb {
-		padding-bottom: 80px;
+		padding-bottom: 60px;
 	}
 
 	.section-lgt {
-		padding-top: 80px;
+		padding-top: 60px;
 	}
 
 	.section-md {
-		padding-top: 80px;
-		padding-bottom: 50px;
+		padding-top: 60px;
+		padding-bottom: 40px;
 	}
 
 	.mb-120 {
@@ -3191,20 +3191,20 @@ body {
 	.section-xl,
 	.section-lg,
 	.section-md2 {
-		padding-top: 60px;
-		padding-bottom: 60px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 
 	.section-lgb {
-		padding-bottom: 60px;
+		padding-bottom: 50px;
 	}
 
 	.section-lgt {
-		padding-top: 60px;
+		padding-top: 50px;
 	}
 
 	.section-md {
-		padding-top: 60px;
+		padding-top: 50px;
 		padding-bottom: 30px;
 	}
 
