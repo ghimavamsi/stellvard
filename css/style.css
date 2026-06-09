@@ -361,7 +361,7 @@ body {
 
 /** Homepage 02 **/
 .about-two-bg {
-	background-image: url(../images/demo-2/bg/about-bg-img-01.png);
+	background-image: url(../images/demo-2/bg/about-bg-img-01.webp);
 	background-position: top right;
 	background-repeat: no-repeat;
 }
@@ -414,7 +414,7 @@ body {
 	display: block;
 	z-index: -1;
 	background-color: rgba(var(--pbmit-blackish-color-rgb), .7);
-	background-image: url(../images/demo-2/bg/service-bg-img.png);
+	background-image: url(../images/demo-2/bg/service-bg-img.webp);
 	background-position: bottom left;
 	background-repeat: no-repeat;
 }
@@ -683,7 +683,7 @@ body {
 }
 
 .connect-cta-section {
-	background-image: url(../images/demo-2/bg/action-box-bg.png);
+	background-image: url(../images/demo-2/bg/action-box-bg.webp);
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -776,7 +776,7 @@ body {
 }
 
 .appointment-three-area {
-	background-image: url(../images/demo-3/bg/appointment-bg.png);
+	background-image: url(../images/demo-3/bg/appointment-bg.webp);
 	background-position: bottom left;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -833,7 +833,7 @@ body {
 	z-index: -1;
 	background-color: rgba(var(--pbmit-blackish-color-rgb), 0.70);
 	background-attachment: fixed;
-	background-image: url(../images/demo-3/bg/testimonial-bg.png);
+	background-image: url(../images/demo-3/bg/testimonial-bg.webp);
 	background-position: center center;
 	background-size: cover;
 }
@@ -854,7 +854,7 @@ body {
 
 /** Homepage 04 **/
 .service-section-four {
-	background-image: url(../images/bg/service-style-4-bg.png);
+	background-image: url(../images/bg/service-style-4-bg.webp);
 	background-position: top right;
 	background-repeat: no-repeat;
 	background-size: auto;
@@ -999,7 +999,7 @@ body {
 	content: "";
 	display: block;
 	z-index: 0;
-	background-image: url(../images/demo-4/bg/portfolio-style-4-bg.png);
+	background-image: url(../images/demo-4/bg/portfolio-style-4-bg.webp);
 	background-position: 0px 100%;
 	background-repeat: no-repeat;
 	opacity: .1;
@@ -1333,7 +1333,7 @@ body {
 }
 
 .hero-banner-five-bottom {
-	background-image: url(../images/demo-5/bg/banner-img.png);
+	background-image: url(../images/demo-5/bg/banner-img.webp);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1400,7 +1400,7 @@ body {
 	right: 0;
 	width: auto;
 	z-index: 1;
-	background-image: url(../images/demo-5/bg/about-img.png);
+	background-image: url(../images/demo-5/bg/about-img.webp);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1513,7 +1513,7 @@ body {
 
 .lab-highlights-section-five {
 	position: relative;
-	background-image: url(../images/demo-5/bg/fid-bg-img.jpg);
+	background-image: url(../images/demo-5/bg/fid-bg-img.webp);
 	background-position: center left;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -3033,7 +3033,7 @@ aside.widget.widget-tag-cloud a:hover,
 
 /** 07 - Contact Us **/
 .talent-contact-sec {
-	background-image: url(../images/bg/about-bg-img-01.png);
+	background-image: url(../images/bg/about-bg-img-01.webp);
 	background-position: top right;
 	background-repeat: no-repeat;
 }
@@ -3077,7 +3077,7 @@ aside.widget.widget-tag-cloud a:hover,
 	content: "";
 	display: block;
 	z-index: -1;
-	background-image: url(../images/bg/contact-from-bg.png);
+	background-image: url(../images/bg/contact-from-bg.webp);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;

@@ -24,12 +24,35 @@
     { title: "Zymo Research", url: "Zymo_Research.html", category: "Principle" },
     { title: "Biocomma", url: "Biocomma.html", category: "Principle" },
 
-    // Portfolio
+    // Portfolio Main Categories
     { title: "Elisa Kits", url: "Portfolio.html#elisa-kits", category: "Portfolio" },
+    { title: "Fast Step ELISA Kit", url: "Portfolio.html#elisa-kits", category: "Portfolio" },
+    { title: "Micro Fast ELISA Kits", url: "Portfolio.html#elisa-kits", category: "Portfolio" },
+    { title: "High Sensitive ELISA Kits", url: "Portfolio.html#elisa-kits", category: "Portfolio" },
+    { title: "Human ELISA Kits", url: "Portfolio.html#elisa-kits", category: "Portfolio" },
+    { title: "Mouse ELISA Kits", url: "Portfolio.html#elisa-kits", category: "Portfolio" },
+
     { title: "Antibodies", url: "Portfolio.html#antibodies", category: "Portfolio" },
+    { title: "Primary Antibody", url: "Portfolio.html#antibodies", category: "Portfolio" },
+    { title: "Secondary Antibody", url: "Portfolio.html#antibodies", category: "Portfolio" },
+    { title: "Labeling Antibody", url: "Portfolio.html#antibodies", category: "Portfolio" },
+
     { title: "PCR Kits", url: "Portfolio.html#pcr-kits", category: "Portfolio" },
+    { title: "Sample Collection & Preservation", url: "Portfolio.html#pcr-kits", category: "Portfolio" },
+    { title: "DNA Purification", url: "Portfolio.html#pcr-kits", category: "Portfolio" },
+    { title: "RNA Purification", url: "Portfolio.html#pcr-kits", category: "Portfolio" },
+    { title: "Total Nucleic Acid Purification", url: "Portfolio.html#pcr-kits", category: "Portfolio" },
+
     { title: "DNA/ RNA Extraction Kits", url: "Portfolio.html#dna-rna-kits", category: "Portfolio" },
+    { title: "Total RNA Purification Kit", url: "Portfolio.html#dna-rna-kits", category: "Portfolio" },
+    { title: "Microbiomics", url: "Portfolio.html#dna-rna-kits", category: "Portfolio" },
+    { title: "Epigenetics", url: "Portfolio.html#dna-rna-kits", category: "Portfolio" },
+
     { title: "Microbiology Media", url: "Portfolio.html#microbiology", category: "Portfolio" },
+    { title: "Chromogenic Media", url: "Portfolio.html#microbiology", category: "Portfolio" },
+    { title: "Dehydrated Culture Media", url: "Portfolio.html#microbiology", category: "Portfolio" },
+    { title: "Supplements", url: "Portfolio.html#microbiology", category: "Portfolio" },
+    { title: "Microbiology Consumables", url: "Portfolio.html#microbiology", category: "Portfolio" },
 
     // Pages
     { title: "About Us", url: "about-us.html", category: "Page" },
@@ -50,7 +73,10 @@
         $container.empty();
 
         if (query.length > 0) {
-          let matches = searchIndex.filter(item => item.title.toLowerCase().includes(query));
+          let matches = searchIndex.filter(item => 
+            item.title.toLowerCase().includes(query) || 
+            (item.keywords && item.keywords.toLowerCase().includes(query))
+          );
           
           if (matches.length > 0) {
             let ul = $('<ul></ul>');
@@ -80,7 +106,10 @@
         e.preventDefault();
         let query = $input.val().toLowerCase();
         if (query.length > 0) {
-          let matches = searchIndex.filter(item => item.title.toLowerCase().includes(query));
+          let matches = searchIndex.filter(item => 
+            item.title.toLowerCase().includes(query) || 
+            (item.keywords && item.keywords.toLowerCase().includes(query))
+          );
           if (matches.length > 0) {
             window.location.href = matches[0].url;
           }

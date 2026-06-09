@@ -5161,7 +5161,7 @@
 	width: 100%;
 	left: 0;
 	top: 0;
-	background-image: url(../images/bg/footer-bg-img.png);
+	background-image: url(../images/bg/footer-bg-img.webp);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -5326,7 +5326,7 @@
 	content: "";
 	display: block;
 	z-index: -1;
-	background-image: url(../images/bg/footer2-bg.png);
+	background-image: url(../images/bg/footer2-bg.webp);
 	background-position: 0 72%;
 	background-repeat: no-repeat;
 }
@@ -5883,7 +5883,7 @@
 }
 
 .pbmit-slider-one .slider-bg-cover {
-	background: url(../images/banner-slider/slider-bg-cover.png) 50% 50% / cover no-repeat transparent;
+	background: url(../images/banner-slider/slider-bg-cover.webp) 50% 50% / cover no-repeat transparent;
 	position: absolute;
 	display: block;
 	width: 820px;
